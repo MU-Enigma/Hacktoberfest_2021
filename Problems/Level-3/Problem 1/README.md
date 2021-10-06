@@ -1,4 +1,4 @@
-# Problem 5
+# Problem 1
 Given a Matrix of size M x M.
 
 Special Thing about this matrix is that the values of each row and column are in non-decreasing order.
