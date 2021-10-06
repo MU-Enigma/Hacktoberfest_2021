@@ -1,17 +1,17 @@
-# Problem 3
+# Problem 2
 
 
 Given a Number N, find out sum of all multiples of 5 and 7 before that number (Number not included)
 
 
-### Input Format:
+## Input Format:
 ```
 First Line contains T, the number of test cases.
 First Line of each test case contains the value of N.
 ```
 
 ### Sample Input
-```
+```c
 4
 10
 46
@@ -20,7 +20,7 @@ First Line of each test case contains the value of N.
 ```
 
 ### Sample Output
-```
+```c
 12
 515
 310
