@@ -42,6 +42,5 @@ The language of the secret message has to be English.
 
 Note: You'll need the following bit-level operators to solve this problem. Or check this: https://en.wikipedia.org/wiki/Bitwise_operations_in_C
 
-<img src="image.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+<img src="image.jpg"
+     alt="Markdown Monster icon" />
