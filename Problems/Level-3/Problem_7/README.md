@@ -1,4 +1,4 @@
-# Problem 3
+# Problem 7
 ## HacktoberFest 2021
 
 This week's Math assignment is particularly lengthy, and you have a bunch of questions to complete! Let the 
