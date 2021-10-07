@@ -43,5 +43,3 @@ Input:
 output:
 1
 ```
-
-author: vivekdhir77
