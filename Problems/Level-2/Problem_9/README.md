@@ -1,6 +1,6 @@
 # Level 2
 
-## Problem 8
+## Problem 9
 
 Ones birthday is a special day but everyone is scared as the day gets closer. This is mostly because of birthday bombs also known as GPL. Keeping with the traditions of MU.
 
