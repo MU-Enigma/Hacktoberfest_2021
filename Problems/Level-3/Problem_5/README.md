@@ -25,20 +25,27 @@ Given is a series of problems on __COUNTERFEIT  COIN RIDDLE__
     cases.
 
 ## Algorithm 3 - __Divide and Conquer Strategy 2__
+
     At every step, divide the treasure in 3 parts. Assuming the number of coins to be k, the first and second part, each contains floor(k/3) coins. Remaining coins go to the third part. Keep the first part on the left side of the scale, second part on the right side and remaining coins outside. If the scale is balanced, follow the same process for the third part, else target the lighter side.
     Note: If k=2 at any step, simply compare.
 
 ### Sample Input 1
+
     15 5 5 5 5 5 5 5 5 5 5 5 5 2 5 5
+
 ### Sample Output 1
+
     25 25
     5 5
     2 5
     12 3
 
 ### Sample Input 2
+
     10 5 5 5 5 5 5 5 5 5 2
+
 ### Sample Output 2
+
     15 15
     5 5
     5 2

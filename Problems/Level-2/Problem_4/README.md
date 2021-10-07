@@ -1,8 +1,5 @@
+# Problem 4
 
-# Problems
-# Level 2
-
-## Problem 4
 No one likes snacks in the mess during the evening.
 So the hostlers decided to survive on maggi. But apparently in 3rd floor there are only 2 kettles
 so the people in the floor decided to split in 2 parts to boil their maggi packets in the kettle.
@@ -10,7 +7,6 @@ so the people in the floor decided to split in 2 parts to boil their maggi packe
 The people are lazy to walk extra distance so they maintaing the same order while splitting in 2 parts.
 
 Find the minimum difference between the two parts.
-
 
 Input
 
@@ -21,20 +17,23 @@ Output
 
 minimum difference after splitting (print absolute difference)
 
-
 Test case:
-```
+
 Input
+
+```c
 7
 1 4 6 2 9 5 2
 ```
-```
+
 Output
+
+```c
 3
 ```
-Explanation: 
-we can divide the array in 2 parts such that difference is minimum in the following way
+
+Explanation:
+
+We can divide the array in 2 parts such that difference is minimum in the following way
 
 (1+4+6+2) - (9+5+2) = 3
-
-author: vivekdhir77

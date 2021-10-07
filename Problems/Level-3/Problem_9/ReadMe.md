@@ -8,37 +8,26 @@ hell ⤑ 01101000|01100101|01101100|01101100
                   'h'                 'e'              'l'          'l'
 But wait! This has exactly 32bits (4 bytes), no? Now, what if we interpret this stream of 32 bits as one unsigned int? What will its decimal value be? It turns out the answer is 1751477356. Therefore, a seemingly innocent number such as 1751477356 can be wisely used to hide some deadly information! Unless someone knows exactly what we are doing, there is no way they can guess it. The process of reconstructing a message based on a secret code like this is called deciphering. 
 
- 
-
 Help Detective Deepuck write a computer program that takes a stream of N 'unsigned integers' and converts print the message hidden in them.
-
 
 Sample Input:
 
+```c
 5
 1282365029
 1599564108
 1281320553
 1315200833
 1601659257
-
- 
+```
 
 (Where the first line 5 indicates that the no. of secret codes N = 5. And then the N codes follow in the order.)
-
- 
 
 Sample Output:
 LoVe_WiLL_fiNd_A_way
 
- 
-
 Constraints:
 The language of the secret message has to be English.
-
- 
-
- 
 
 Note: You'll need the following bit-level operators to solve this problem. Or check this: https://en.wikipedia.org/wiki/Bitwise_operations_in_C
 

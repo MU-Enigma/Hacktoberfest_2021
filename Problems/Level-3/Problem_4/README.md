@@ -25,17 +25,24 @@ Given is a series of problems on __COUNTERFEIT  COIN RIDDLE__
     cases.
 
 ## Algorithm 2 - __Divide and Conquer Strategy 1__
+
     At every step, divide the treasure in 2 halves. Keep the first half on the left side of the scale and second half on the right side. In case one coin is left out (when the number of coins is odd), keep it separately. If both the sides are equal, then the coin left outside is the counterfeit coin. Else collect the coins on the lighter side and repeat this whole process again.
 
 ### Sample Input 1
+
     7 5 5 5 5 2 5 5
+
 ### Sample Output 1
+
     15 12
     5 2
     4 3
 
 ### Sample Input 2
+
     5 5 5 5 5 2
+
 ### Sample Output 2
+
     10 10
     4 3

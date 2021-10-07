@@ -18,6 +18,6 @@ preptember
 ### Sample Output
 
 ```c
-hello opensource
+helo pnsurc 
 pretmb
 ```

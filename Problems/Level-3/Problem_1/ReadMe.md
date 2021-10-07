@@ -15,5 +15,4 @@ Can you help Mr No-Brains find Indira's number?
 Constraints:
 0 < r < 1000
 
-
 Question credits:- Dr. Bhanukiran Perabathini

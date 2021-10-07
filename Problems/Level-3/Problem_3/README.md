@@ -30,15 +30,22 @@ Keep comparing the pair of elements one by one. As soon as you find an element w
 lesser weight, return its index and the weight difference.
 
 ### Sample Input 1
+
     7 5 5 5 5 2 5 5
+
 ### Sample Output 1
+
     5 5
     5 5
     2 5
     4 3
+
 ### Sample Input 2
+
     5 5 5 5 5 2
+
 ### Sample Output 2
+
     5 5
     5 5
     4 3
