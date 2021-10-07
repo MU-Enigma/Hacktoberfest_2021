@@ -1,6 +1,6 @@
 # Level 1
 
-## Problem 7
+## Problem 10
 Anirudh and Ravi are best friends and both stay together in room 316 of new BH. They usually challenge themselves each other to wake up early in the morning. One day Anirudh gave Ravi the following problem.
 
 Let A(1), A92, ... A(N) be  an array of N numbers. Weakness of this array is defined by max( A(1) - A(2) , A(2) - (3), ... A(n-1) - A(n)). Ravi needs to find a permutation of given array such that the resulting weakness is minimum possible.
