@@ -1,4 +1,4 @@
-# Problem 6
+# Problem 3
 Write code, where in an array of integers, if there's any integer that is larger than the number after it, form an array of those special numbers.
 ```
 Example:-
