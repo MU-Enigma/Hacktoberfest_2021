@@ -1,4 +1,4 @@
-# Problem 3
+# Problem 5
 
 Given is a series of problems on __COUNTERFEIT  COIN RIDDLE__
 
@@ -24,28 +24,29 @@ Given is a series of problems on __COUNTERFEIT  COIN RIDDLE__
     coin and the weight difference. Sample inputs and outputs have been shown for a few test
     cases.
 
-## Algorithm 1 - __Pairwise Comparision__
+## Algorithm 3 - __Divide and Conquer Strategy 2__
 
-Keep comparing the pair of elements one by one. As soon as you find an element with
-lesser weight, return its index and the weight difference.
+    At every step, divide the treasure in 3 parts. Assuming the number of coins to be k, the first and second part, each contains floor(k/3) coins. Remaining coins go to the third part. Keep the first part on the left side of the scale, second part on the right side and remaining coins outside. If the scale is balanced, follow the same process for the third part, else target the lighter side.
+    Note: If k=2 at any step, simply compare.
 
 ### Sample Input 1
 
-    7 5 5 5 5 2 5 5
+    15 5 5 5 5 5 5 5 5 5 5 5 5 2 5 5
 
 ### Sample Output 1
 
-    5 5
+    25 25
     5 5
     2 5
-    4 3
+    12 3
 
 ### Sample Input 2
 
-    5 5 5 5 5 2
+    10 5 5 5 5 5 5 5 5 5 2
 
 ### Sample Output 2
 
+    15 15
     5 5
-    5 5
-    4 3
+    5 2
+    9 3
