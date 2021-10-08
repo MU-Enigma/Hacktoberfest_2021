@@ -9,4 +9,7 @@ Naming format- yourname_problemnumber.extension
 - Make and commit changes via git CLI to your forked repo
 - Create your Pull Request mentioning which issue you solved.
 
+Register for hacktoberfest here:
+https://hacktoberfest.digitalocean.com/
+
 GLHF!
