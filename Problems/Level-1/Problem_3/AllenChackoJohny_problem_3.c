@@ -26,7 +26,7 @@ int main()
     {
         s2=s2+array[N-1-i];
     }
-printf("%f\n",s2);
+
 part1 = s1/K;
 part2 = s2/J;
 
