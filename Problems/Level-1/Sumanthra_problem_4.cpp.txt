@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,day,hour,min,sec;
+    cin >> n;
+    day = n / (24 * 3600);
+ 
+    n = n % (24 * 3600);
+    hour = n / 3600;
+ 
+    n %= 3600;
+    min = n / 60 ;
+ 
+    n %= 60;
+    sec = n;
+     
+    cout << day << " day, " << hour << " hr, " << min << " min, "<< sec << " sec, " << endl;
+    
+    
+
+    return 0;
+}
