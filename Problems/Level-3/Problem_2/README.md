@@ -4,7 +4,7 @@ Given a Matrix of size M x M.
 
 Special Thing about this matrix is that the values of each row and column are in non-decreasing order.
 
-Find the total number of Sub-Matrices which can be formed with Average greater than or equal to X.
+Find the total number of Square Sub-Matrices which can be formed with Average greater than or equal to X.
 
 ## Input Format
 
