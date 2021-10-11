@@ -17,7 +17,7 @@ typedef pair < int , int > PII;
 #define BOOST ios_base::sync_with_stdio(0);
 #define TCSOLVE() int tests; cin >> tests; REP(i, tests) solve();
 
-const int N = 2e5 + 5, M = 2e5 + 5, mx = 1e9, LN = 20, mod = 1e9 + 7;
+const int N = 2e5 + 5, M = 2e5 + 5, mx = 1e9;
 
 void solve(){
     int b,r,x;
