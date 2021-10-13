@@ -6,3 +6,4 @@ while(t>0):
     rev_swap = rev_given.swapcase()
     print(rev_swap)
     t += -1
+    
