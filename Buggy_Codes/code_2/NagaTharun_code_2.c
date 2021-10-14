@@ -13,7 +13,7 @@ int main()
         {
             printf("YES");
         }
-        else if((n-x)%k!=0)
+        else if((n-x+1)%k==0)
         {
             printf("YES");
         }   
