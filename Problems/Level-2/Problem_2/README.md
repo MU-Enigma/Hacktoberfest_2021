@@ -23,7 +23,7 @@ First Line of each test case contains the value of N.
 
 ```c
 12
-515
-310
-2237
+337
+175
+1580
 ```
