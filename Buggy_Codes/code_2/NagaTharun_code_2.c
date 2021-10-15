@@ -2,8 +2,8 @@
 
 int main()
 {
-    int t;
-    scanf("%d",&t);
+    int a;
+    scanf("%d",&a);
     while(t--)
     {
         int n,x,k;
