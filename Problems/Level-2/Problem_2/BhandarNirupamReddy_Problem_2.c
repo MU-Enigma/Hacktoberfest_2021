@@ -3,17 +3,22 @@ int main()
 {
     int N;
     scanf("%d", &N);
-
-    int sum_up = 0, a = 5;
-    while(a < N)
+    
+    for(int i=0;i<N;i++)
     {
-        if(a%5 == 0 || a%7 == 0)
-        {
-            sum_up += a;
-        }
-        a++;
-    }
+        int Num;
+        scanf("%d", &Num);
 
-    printf("%d", sum_up);
-    return 0;
+        int sum_up = 0, a = 5;
+        while(a < Num)
+        {
+            if(a%5 == 0 || a%7 == 0)
+            {
+                sum_up += a;
+            }
+            a++;
+        }
+        printf("%d", sum_up);
+        printf("\n");
+    }
 }
