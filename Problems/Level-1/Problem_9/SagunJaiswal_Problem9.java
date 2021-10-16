@@ -13,7 +13,10 @@ public class Main {
 	}
 
 	static public void main(String[] args) {
+		
 	    Scanner sc = new Scanner(System.in);
+		int testCases = sc.nextInt();
+		while(testCases-- > 0){
 		String s = sc.next();
 		if (isAlphabaticOrder(s)) {
 			System.out.println("true");
@@ -21,5 +24,6 @@ public class Main {
 		else {
 			System.out.println("false");
 		}
+	}
 	}
 }
