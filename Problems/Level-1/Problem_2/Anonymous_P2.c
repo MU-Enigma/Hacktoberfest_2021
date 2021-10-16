@@ -5,7 +5,7 @@
 int main()
 {
     int size;
-    printf("Start");
+    //printf("Start");
     scanf("%d", &size);
     int *list;
     list=(int *)malloc(size*sizeof(int));
