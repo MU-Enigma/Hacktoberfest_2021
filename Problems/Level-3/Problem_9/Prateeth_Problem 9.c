@@ -45,6 +45,7 @@ int main(){
     int n;
     scanf("%d",&n);
     
+
     unsigned int arr[1000];
 
     for(int i=0; i<n; i++){
@@ -53,6 +54,7 @@ int main(){
     
     for(int i=0; i<n; i++){
     unsigned_decimal_to_binary_n1(arr[i]);
-
     }
+    
+     
 }
