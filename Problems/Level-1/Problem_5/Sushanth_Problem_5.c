@@ -2,14 +2,12 @@
 int main()
 {
     int n;
-    printf("enter the noof numbers");
     scanf("%d",&n);
     int prime(int n)
     {
         int a[n];
         for(int i=0;i<n;i++)
         {
-            printf("enater the numbers");
             scanf("%d",&a[i]);
         }
         int count=0,sum=0;
@@ -31,7 +29,7 @@ int main()
                 count++;
             }
         }
-        printf("the sum is %d",sum);
+        printf("%d",sum);
     }
     prime(n);
 }
