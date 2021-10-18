@@ -3,13 +3,14 @@
 #include <stdlib.h>
 
 
-int main(int n,char *y[])
+int main()
 {
-int i , diff;
-int a=0,box[n];
-for(int i=2;i<n;i++)
+int i ,n, diff;
+int a=0,box[100];
+scanf("%d",&n);
+for(int i=0;i<n;i++)
 {
-box[a]=atoi(y[i]);
+scanf("%d",&box[i]);
 a++;
 }
 for(i=0;i<a;i=i+2)
@@ -42,4 +43,5 @@ for(i=0;i<a;i=i+2)
     
     return 0;
 }
+
 
