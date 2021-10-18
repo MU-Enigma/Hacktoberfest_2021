@@ -1,32 +1,30 @@
 #include<stdio.h>
-
-int rev (int x)
+int reverse (int x)
 {
-  int a = 0, rem;
+  int a = 0, m;
   while (x > 0)
     {
-      rem = x % 10;
-      a = a * 10 + rem;
+      m = x % 10;
+      a = a * 10 + m;
       x = x / 10;
     }
   return a;
 }
-
 int main ()
 {
   int n;
   scanf ("%d", &n);
 
   int arr[n];
-  for (int i = 0; i < n; i++)
+  for (int j = 0; j < n; j++)
     {
-      scanf ("%d", &arr[i]);
+      scanf ("%d", &arr[j]);
     }
 
-  for (int i = 0; i < n; i++)
+  for (int j = 0; j < n; j++)
     {
-      int pallin = rev (arr[i]);
-      if (pallin != arr[i])
+      int palin = reverse (arr[j]);
+      if (palin != arr[j])
 	{
 	  printf ("False\n");
 	}
