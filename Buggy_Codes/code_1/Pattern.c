@@ -1,14 +1,16 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-    for(int i = 5; i >= 1 ; i--)
+    int i,j,k;
+    printf("Program to print star pattern\n");
+    for(i = 5; i >= 1 ; i--)
     {
-        for(int j = 1; j <= i ; j++)
+        for(j = 1; j <= i ; j++)
         {
             printf(" ");
         }
-        for(int j = 1; j <= (5 - i + 1); j++)
+        for(k = 1; k <= (5 - i + 1); k++)
         {
             printf("%d", i);
         }
