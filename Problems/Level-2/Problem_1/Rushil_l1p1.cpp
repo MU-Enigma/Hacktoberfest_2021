@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int n = 0,R,B,X;
+    int n = 0,R,B,X; 
     // cout << "Enter the number of test cases: ";
     cin >> n;
 
