@@ -1,4 +1,5 @@
 # Problem 7
+
 ## HacktoberFest 2021
 
 This week's Math assignment is particularly lengthy, and you have a bunch of questions to complete! Let the 
@@ -11,16 +12,20 @@ A person is required to solve the tasks in order as follows: "FFGZZZY"
  Other : "BA", "AFFFCC" and "YYYYY".
 
 ### Input
-```
+
+```md
 The first line contains an integer t (1≤t≤1000). Then t test cases follow.
 The first line of each test case contains one integer n (1≤n≤50) — the number of hours you spent solving questions.
 The second line contains a string of length n, consisting of uppercase Latin letters, which is the order 
 in which you solved the questions.
 ```
+
 ### Output
-```
+
+```md
 For each test case output:
 ```
+
 "YES", if the professor cannot be suspicious.
 "NO", otherwise.
 You may print every letter in any case you want (so, for example, the strings yEs, yes, Yes and YES 
@@ -28,8 +33,9 @@ are all recognized as positive answer).
 
 ### Example
 
-#### inputCopy
-```
+#### Input Copy
+
+```c
 5
 3
 ABA
@@ -42,13 +48,13 @@ Z
 2
 AB
 ```
+
 #### outputCopy
-```
+
+```c
 NO
 NO
 YES
 YES
 YES
 ```
-
-
