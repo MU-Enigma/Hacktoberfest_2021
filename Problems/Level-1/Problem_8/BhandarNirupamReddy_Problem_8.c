@@ -1,23 +1,15 @@
 #include<stdio.h>
-#include<string.h>
-int check(char *S, char *reversed_S)
+int reverse(int A, int n)
 {
-    int count = 0;
-    int len = strlen(S);
-
-    for(int b=0;b < len;b++)
+    int rem, rev = 0;
+    
+    while(A != 0)
     {
-        if(S[b] == reversed_S[b])
-        {
-            count++;
-        }
+        rem = A%10;
+        rev = rev*10 + rem;
+        A = A/10;
     }
-
-    if(count == len)
-        return 1;
-        
-    else
-        return 0;
+    return rev;
 }
 //--------------------------------------------------------------------------------------------
 int main()
@@ -25,23 +17,16 @@ int main()
     int N;
     scanf("%d", &N);
 
+    int arra[N], rev_arra[N];
+    
+    for(int i=0;i < N;i++)
+        scanf("%d", &arra[i]);
+    
     for(int i=0;i < N;i++)
     {
-        char str[100];
-        scanf("%s", str);
-        int len = strlen(str);
-        
-        char rev_str[100];
+        rev_arra[i] = reverse(arra[i], N);
 
-        for(int a=0;a < len;a++)
-        {
-            rev_str[a] = str[len-1-a];
-        }
-
-        int check_result;
-        check_result = check(str, rev_str);
-
-        if(check_result == 1)
+        if(rev_arra[i] == arra[i])
             printf("True\n");
         else
             printf("False\n");
