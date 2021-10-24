@@ -13,7 +13,7 @@ def primesum(li):
     for i in li:
         flag=isprime(i)
         if(flag==True):
-            sum=sum+i 
+            sum=sum+i
     return sum
 s=int(input())
 li=[int(x) for x in input().split()]
