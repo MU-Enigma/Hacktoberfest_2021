@@ -6,6 +6,8 @@ If there is a pothole X steps ahead of him. Determine after how many seconds wil
 If he will never reach that pothole, Output -1.
 There are T test cases in the code.
 
+
+
 ## Input format
 
 ```c
