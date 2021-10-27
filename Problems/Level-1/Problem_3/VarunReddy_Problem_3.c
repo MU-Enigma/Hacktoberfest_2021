@@ -5,12 +5,14 @@ int main()
   scanf("%d",&N);
   int arr[N];
   int i;
+
+  int k,j;
+  scanf("%d %d",&k,&j);
+  
   for(i=0;i<N;i++){
       scanf("%d",&arr[i]);
   }
-  
-  int k,j;
-  scanf("%d %d",&k,&j);
+
   float mean_till_k=0,mean_till_j=0;
   for(i=0;i<k;i++){
   mean_till_k=(mean_till_k+arr[i]);
