@@ -6,4 +6,4 @@ for i in range(runs) :
     length=len(str)
     result=str[::-1]
     result=result.swapcase()
-    print(reslut)
+    print(result)
