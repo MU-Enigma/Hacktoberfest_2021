@@ -19,7 +19,7 @@ First Line of each test case tells B R X separated by space, which represent ste
 3
 3 5 15
 4 4 10
-3 6 20
+3 6 20 
 ```
 
 ### Sample Output
