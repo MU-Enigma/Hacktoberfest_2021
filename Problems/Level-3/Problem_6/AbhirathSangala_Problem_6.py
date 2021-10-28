@@ -6,15 +6,11 @@ def convert_to_intarr(x, l):
 
 def print_pair(p):
     string = ""
-    no_transaction = 0
     for i in p:
-        if i == 0:
-            no_transaction += 1
         string += str(i) + " "
     print(string)
-    if no_transaction == 3:
+    if p[2] == 0:
         print("(no transaction is done in this case)")
-
 
 def input_check(x):
     for item in x:
@@ -23,7 +19,6 @@ def input_check(x):
             exit()
 
 def getmaxdiff(x, l):
-    #Uses bruteforce
     current_pair = [0, 0, 0]
     for i in range(l):
         for index, forward_element in enumerate(x[i+1:l]):
