@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main(void)
+int main(void) //Execution of every program starts from main function.
 {
-    int i,j,k;
+    int i,j,k; //variable declaration.
     printf("Program to print star pattern\n");
     for(i = 5; i >= 1 ; i--)
     {
@@ -14,7 +14,7 @@ int main(void)
         {
             printf("%d", i);
         }
-    printf("\n");
+    printf("\n"); //after printing one row it will changle the line.
     }
     return 0;
 }
