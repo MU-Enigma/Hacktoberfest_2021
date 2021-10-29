@@ -2,19 +2,19 @@ vowels = ['A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u']
 def get_vowels_and_negative(x, l, n=5):
     vowelS = ""
     negative = ""
-    pleasenomorevowels = False
+    vowelCap = False
     for alpha in x:
         vowelB = False
         for vowel in vowels:
             if alpha == vowel:
-                if not pleasenomorevowels:
+                if not vowelCap:
                     vowelS += alpha
                 vowelB = True
                 break
         if not vowelB:
             negative += alpha
         if len(vowelS) == n:
-            pleasenomorevowels = True
+            vowelCap = True
             if len(negative)>=l:
                 return vowelS, negative
     return [False, False]
