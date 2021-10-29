@@ -1,5 +1,5 @@
 /*    level 2 - problem 2
-  problem statement: for a given number N, find the sum of all the multiples and 5 & 7 before that number
+  problem statement: for a given number N, find the sum of all the 5 & 7 multiples appearing until that number
   programming language: C
 */
 
