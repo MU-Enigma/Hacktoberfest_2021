@@ -1,4 +1,5 @@
 vowels = ['A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u']
+
 def get_vowels_and_negative(x, l, n=5):
     vowelS = ""
     negative = ""
@@ -34,7 +35,6 @@ def print_names(x, l):
         name += str(int(SUM))
         print(name)
         
-
 elem_num = int(input())
 string = input()
 
