@@ -3,7 +3,11 @@
 int main()
 {
     int N, K, J;
-    double avg1 = 0, avg2 = 0, sum1 = 0, sum2 = 0;
+
+    double sum1 = 0,
+           sum2 = 0;
+    double avg1 = 0, avg2 = 0;
+
     scanf("%d", &N);
     int arr[N];
     scanf("%d%d", &K, &J);
