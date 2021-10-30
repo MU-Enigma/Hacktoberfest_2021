@@ -2,7 +2,7 @@
 
 int main()
 {
-    int N, K, J,
+    int N, K, J;
     double sum1 = 0, sum2 = 0;
     double avg1 = 0, avg2 = 0;
     scanf("%d", &N);
