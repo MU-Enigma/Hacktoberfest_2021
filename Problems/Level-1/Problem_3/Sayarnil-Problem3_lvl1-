@@ -1,0 +1,33 @@
+import java.io.*;
+public class Problem3
+{
+    void main()throws IOException
+    { int i;double sk=0.0,sj=0.0,s=0.0;
+        BufferedReader br = new BufferedReader(new InputStreamReader (System.in));
+        System.out.println("Enter number of elements");
+        int n = Integer.parseInt(br.readLine());
+        System.out.println("Enter number k and j ");
+        int k = Integer.parseInt(br.readLine());
+        int j = Integer.parseInt(br.readLine());
+        int ar[] = new int[n];
+        System.out.println("Enter the elements");
+        for(i=0;i<n;i=i+1)
+        {
+             ar[i] = Integer.parseInt(br.readLine());
+        }
+        
+        for(i=0;i<k;i=i+1)
+        {
+            sk = sk+ ar[i];
+        }
+        sk= sk/k;
+        for(i=n-1;i>n-1-j;i=i-1)
+        {
+            sj = sj+ ar[i];
+        }
+        sj= sj/j;
+        s=sk-sj;
+        System.out.println(s);
+    }
+}
+        
