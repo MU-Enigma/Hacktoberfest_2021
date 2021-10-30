@@ -1,7 +1,7 @@
 import java.io.*;
 public class Problem4
 {
-    void main()throws IOException
+   public static void main()throws IOException
     { 
         BufferedReader br = new BufferedReader(new InputStreamReader (System.in));
         System.out.println("Enter value of time in seconds");
