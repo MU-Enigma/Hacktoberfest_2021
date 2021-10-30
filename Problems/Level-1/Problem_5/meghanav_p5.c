@@ -3,10 +3,10 @@
 int main()
 {
     int n;
-    printf("Enter a number: ");
+    //printf("Enter a number: ");
     scanf("%d",&n);
     int arr[n];
-    printf("Enter %d numbers in the array: ",n);
+    //printf("Enter %d numbers in the array: ",n);
     for(int i=0; i<n; i++)
     {
         scanf("%d",&arr[i]);
