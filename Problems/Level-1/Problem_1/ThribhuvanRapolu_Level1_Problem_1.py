@@ -15,4 +15,8 @@ for i in range(numberword):
         print(ans)       
     s=input()
     swap_case(s)
+<<<<<<< HEAD
     
+=======
+    
+>>>>>>> 750bc1d168ae43383f8ca154dc2bd925446d6bfe
