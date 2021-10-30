@@ -1,13 +1,18 @@
 numberword=int(input())
 for i in range(numberword):
     def swap_case(s):
-        for j in range (len(s)):
+        ans=""
+        ch=""
+        j=len(s)-1
+        while j>=0:
             if s[j].isupper():
-                 return s[j].lower()
+                 ans+=s[j].lower()
             elif s[j].islower():
-                return s[j].upper()
+                 ans+=s[j].upper()
             else:
-                return s[j]
+                 ans+=s[j]
+            j=j-1
+        print(ans)       
     s=input()
     swap_case(s)
-    print("".join(map(swap_case,s)))
+    
