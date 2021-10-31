@@ -12,6 +12,7 @@ int isPrime(int a){
         }
     }
 }
+
 int main ()
 {
     int N;
