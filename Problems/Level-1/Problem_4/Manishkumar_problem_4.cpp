@@ -10,5 +10,8 @@ int main(){
     N = N%3600;
     minute = N/60; 
     N = N%60;
-    cout<<day <<hour <<minute;
+    cout << day << " " << "day," << hour
+         << " " << "hr," << minute << " "
+         << "min," << N << " "
+         << "sec"  << endl;
 }
