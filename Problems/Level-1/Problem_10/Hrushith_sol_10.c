@@ -3,25 +3,24 @@
 int main(){ 
     int n;
     scanf("%d",&n);
-    int arr[n];
+    int a[n];
     for(int i=0;i<n;i++){ 
-        scanf("%d",&arr[i]);
+        scanf("%d",&a[i]);
 
     }
     int temp;
     for(int i=0;i<n;i++){ 
         for(int j=0;j<n;j++){ 
-            if (arr[i]<arr[j]){ 
-                 temp = arr[i];
-              arr[i]=arr[j];
-              arr[j]=temp;3
-1 3 2
+            if (a[i]<a[j]){ 
+                 temp = a[i];
+              a[i]=a[j];
+              a[j]=temp;
             }
         }
     }
 
     for(int i=0;i<n;i++){ 
-        printf("%d ",arr[i]);
+        printf("%d ",a[i]);
     }
 
 }
