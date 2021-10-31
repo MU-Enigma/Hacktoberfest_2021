@@ -1,28 +1,39 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
 #include<stdio.h>
 int main()
 {
- int N,K,J;       
+ int n;       
+ int a;
+ int b;
  int i;
- scanf("%d",&N);  
- scanf("%d %d",&K,&J);
- int array[N-1];
-    for(int i=0;i<N;i++)
+ scanf("%d",&n);  
+ scanf("%d",&a);
+ scanf("%d",&b);
+ int array[n-1];
+    for(int i=0;i<n;i++)
     {
         scanf("%d",&array[i]);
     }
- float result, part1, part2, s1=0;
+ float result, sum1, sum2, s1=0;
  float s2=0;
-    for(i=0;i<K;i++)
+    for(i=0;i<a;i++)
     {
         s1=s1+array[i];
     }
-    for(i=0;i<J;i++)
+    for(i=0;i<b;i++)
     {
-        s2=s2+array[N-1-i];
+        s2=s2+array[n-1-i];
     }
-part1 = s1/K;
-part2 = s2/J;
-result = part1-part2;
+sum1 = s1/a;
+sum2 = s2/b;
+result = sum1-sum2;
 printf("%0.1f\n",result);
 return 0;
 }
