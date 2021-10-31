@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main(void)
+{
+    int limit;
+    float sum;
+printf("Enter the total numbers\n");
+scanf("%d",&limit);
+int nums[limit];
+
+for(int i=0; i<limit;i++){
+        scanf("%d",&nums[i]);
+}
+
+for(int i=0;i<limit;i++){
+    sum=sum+nums[i];
+} float mean=sum/limit;
+  printf("Mean: %.2f\n", mean);
+ return 0;
+}
