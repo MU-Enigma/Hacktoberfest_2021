@@ -12,4 +12,5 @@ Write a Program to convert seconds to day, hour, minutes and seconds.
 
 ```c
 1 day, 1 hr, 1 min, 6 sec
+
 ```
